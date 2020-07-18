@@ -15,7 +15,7 @@ int main(int argc, char **argv) {
 		exit(0);
 	}
 
-	/* state = OUT;
+	state = OUT;
 	nc = nl = nw = 0;
 	while ((c = getchar()) != EOF) {
 		++nc;
@@ -32,7 +32,7 @@ int main(int argc, char **argv) {
 		}
 	
 		
-	} */
+	} 
 	
 	printf("%d, %d, %d\n", nc, nw, nl);
 
